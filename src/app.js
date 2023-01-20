@@ -10,6 +10,8 @@ mongoose.connect('mongodb://willian:root@localhost:27017/admin')
 
 //Models
 const Product = require('./models/product')
+const Customer = require('./models/customer')
+const Order = require('./models/order')
 
 //Rotas
 const indexRoute = require('./routes/index-route')
