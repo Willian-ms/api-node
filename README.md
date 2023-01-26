@@ -7,3 +7,5 @@ Foi utilizado o Docker para criar a imagem do mongo, sendo este banco NOSQL o re
 Foi utilizado também o Postman para verificar todas as requisições presentes nesta API, em formato JSON.
 
 Como SGBD foi utilizado a versão gratuíta do Studio 3T.
+
+*projeto em andamento
