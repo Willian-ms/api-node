@@ -16,12 +16,11 @@ const schema = new Schema({
     default: Date.now
   },
   status: {
-    type: Date,
+    type: String,
     required: true,
     enum: ['created', 'done'],
     default: 'created'
   },
-  
   items:[{
     quantity: {
       type: Number,
